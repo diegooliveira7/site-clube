@@ -5,7 +5,7 @@ const isMobile = window.innerWidth <= 768;
 
 // Tamanhos adaptáveis
 const fontSizeTitle = isMobile ? 16 : 20;
-const fontSizeAxis = isMobile ? 12 : 14;
+const fontSizeAxis = isMobile ? 10 : 14;
 const fontSizeLegend = isMobile ? 14 : 16;
 
 const data = {
@@ -62,7 +62,7 @@ const config = {
         ticks: {
           color: '#4b3621',
           font: {
-            size: isMobile ? 10 : fontSizeAxis,
+            size: isMobile ? 8 : fontSizeAxis,
             weight: 'bold'
           },
           maxRotation: 0
