@@ -9,7 +9,7 @@ const fontSizeAxis = isMobile ? 12 : 14;
 const fontSizeLegend = isMobile ? 14 : 16;
 
 const data = {
-  labels: ['Unidade 1', 'Unidade 2', 'Unidade 3', 'Unidade 4', 'Unidade 5', 'Unidade 6'],
+  labels: ['Arqueiras', 'Atalaia', 'Cavaleiros', 'Guarita', 'Sentinela', 'Vedeta'],
   datasets: [{
     label: 'Pontos',
     data: [65, 59, 80, 81, 56, 75],
@@ -62,9 +62,10 @@ const config = {
         ticks: {
           color: '#4b3621',
           font: {
-            size: fontSizeAxis,
+            size: isMobile ? 10 : fontSizeAxis,
             weight: 'bold'
-          }
+          },
+          maxRotation: 0
         },
         grid: {
           display: false

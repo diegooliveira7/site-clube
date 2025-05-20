@@ -159,6 +159,16 @@ html, body {
   th, td {
     font-size: 1rem;
   }
+
+  .chart-container {
+    min-height: 280px; /* reduzido */
+    height: auto;
+  }
+
+  .image-container {
+    display: none; /* aparece só no celular */
+    
+  }
 }
 
   
